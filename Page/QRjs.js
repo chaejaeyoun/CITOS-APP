@@ -67,7 +67,7 @@ function load () {
 	        }).catch((err)=>{
 	            console.log(err);
 	        });
-
+	    })
 }
 
 
