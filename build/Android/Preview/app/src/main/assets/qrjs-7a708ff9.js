@@ -46,7 +46,7 @@ function load () {
             	
               });
 
-	fetch('http://f2c85938.ngrok.io/card/add',{
+	fetch('http://c41f6608.ngrok.io/card/add',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"

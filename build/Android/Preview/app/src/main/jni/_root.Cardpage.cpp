@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/build/Android/Preview/cache/ux15/Cardpage.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/build/Android/Preview/cache/ux15/Cardpage.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.Cardpage.h>
@@ -269,7 +269,7 @@ void Cardpage::InitializeUX()
     temp10->FileName(::STRINGS[11/*"Page/Cardpa...*/]);
     temp10->SourceLineNumber(3);
     temp10->SourceFileName(::STRINGS[11/*"Page/Cardpa...*/]);
-    temp10->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Cardjs493886af()));
+    temp10->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Cardjs74de2ce8()));
     temp11->SourceLineNumber(4);
     temp11->SourceFileName(::STRINGS[11/*"Page/Cardpa...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp11->Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp12);

@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/.uno/ux15/QRpage.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/.uno/ux15/QRpage.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.example01_bundle.h>
@@ -230,7 +230,7 @@ void QRpage::InitializeUX()
     temp4->FileName(::STRINGS[8/*"Page/QRpage...*/]);
     temp4->SourceLineNumber(3);
     temp4->SourceFileName(::STRINGS[8/*"Page/QRpage...*/]);
-    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::QRjsd8136104()));
+    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::QRjs7b2ca23d()));
     temp5->SourceLineNumber(4);
     temp5->SourceFileName(::STRINGS[8/*"Page/QRpage...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp5->Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp6);

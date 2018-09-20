@@ -16,19 +16,19 @@ var saveage = Observable("");
 var savename = Observable("");
 
 function Save(){
-    console.log('save'); //Sign_in 함수가 호출되었는지 확인
+    console.log('UPID'); //Sign_in 함수가 호출되었는지 확인
 
-	fetch('http://7e27fb14.ngrok.io/users/signup',{
+	fetch('http://c41f6608.ngrok.io/users/signup',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
 	            },
 	            body : JSON.stringify({
-	            	newid : saveid.value,
-	                newpw : savepassword.value,
-	                newname : savename.value,
-	                newage : saveage.value,
-	                newsex : savesex.value
+	            	'newid' : saveid.value,
+	                'newpw' : savepassword.value,
+	                'newname' : savename.value,
+	                'newage' : saveage.value,
+	                'newsex' : savesex.value
 	                
 	              })
 	        }).then((res)=>{

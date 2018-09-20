@@ -6,7 +6,7 @@ public partial class MainView: Fuse.App
     {
         [Uno.WeakReference] internal readonly MainView __parent;
         [Uno.WeakReference] internal readonly MainView __parentInstance;
-        public Template(MainView parent, MainView parentInstance): base("Page.Home", false)
+        public Template(MainView parent, MainView parentInstance): base("Login", false)
         {
             __parent = parent;
             __parentInstance = parentInstance;
@@ -16,26 +16,133 @@ public partial class MainView: Fuse.App
         }
         public override object New()
         {
-            var __self = new global::Page.Home(__parent.router);
+            var __self = new global::Login(__parent.router);
             __self.Name = __selector0;
-            __self.SourceLineNumber = 27;
+            __self.SourceLineNumber = 7;
             __self.SourceFileName = "MainView.ux";
             return __self;
         }
-        static global::Uno.UX.Selector __selector0 = "Page.Home";
+        static global::Uno.UX.Selector __selector0 = "Login";
     }
-    global::Uno.UX.Property<string> temp_Value_inst;
-    global::Uno.UX.Property<string> temp1_Value_inst;
+    [Uno.Compiler.UxGenerated]
+    public partial class Template1: Uno.UX.Template
+    {
+        [Uno.WeakReference] internal readonly MainView __parent;
+        [Uno.WeakReference] internal readonly MainView __parentInstance;
+        public Template1(MainView parent, MainView parentInstance): base("Home", false)
+        {
+            __parent = parent;
+            __parentInstance = parentInstance;
+        }
+        static Template1()
+        {
+        }
+        public override object New()
+        {
+            var __self = new global::Home(__parent.router);
+            __self.Name = __selector0;
+            __self.SourceLineNumber = 8;
+            __self.SourceFileName = "MainView.ux";
+            return __self;
+        }
+        static global::Uno.UX.Selector __selector0 = "Home";
+    }
+    [Uno.Compiler.UxGenerated]
+    public partial class Template2: Uno.UX.Template
+    {
+        [Uno.WeakReference] internal readonly MainView __parent;
+        [Uno.WeakReference] internal readonly MainView __parentInstance;
+        public Template2(MainView parent, MainView parentInstance): base("Getpage", false)
+        {
+            __parent = parent;
+            __parentInstance = parentInstance;
+        }
+        static Template2()
+        {
+        }
+        public override object New()
+        {
+            var __self = new global::Getpage(__parent.router);
+            __self.Name = __selector0;
+            __self.SourceLineNumber = 9;
+            __self.SourceFileName = "MainView.ux";
+            return __self;
+        }
+        static global::Uno.UX.Selector __selector0 = "Getpage";
+    }
+    [Uno.Compiler.UxGenerated]
+    public partial class Template3: Uno.UX.Template
+    {
+        [Uno.WeakReference] internal readonly MainView __parent;
+        [Uno.WeakReference] internal readonly MainView __parentInstance;
+        public Template3(MainView parent, MainView parentInstance): base("QRpage", false)
+        {
+            __parent = parent;
+            __parentInstance = parentInstance;
+        }
+        static Template3()
+        {
+        }
+        public override object New()
+        {
+            var __self = new global::QRpage(__parent.router);
+            __self.Name = __selector0;
+            __self.SourceLineNumber = 10;
+            __self.SourceFileName = "MainView.ux";
+            return __self;
+        }
+        static global::Uno.UX.Selector __selector0 = "QRpage";
+    }
+    [Uno.Compiler.UxGenerated]
+    public partial class Template4: Uno.UX.Template
+    {
+        [Uno.WeakReference] internal readonly MainView __parent;
+        [Uno.WeakReference] internal readonly MainView __parentInstance;
+        public Template4(MainView parent, MainView parentInstance): base("Uppage", false)
+        {
+            __parent = parent;
+            __parentInstance = parentInstance;
+        }
+        static Template4()
+        {
+        }
+        public override object New()
+        {
+            var __self = new global::Uppage(__parent.router);
+            __self.Name = __selector0;
+            __self.SourceLineNumber = 11;
+            __self.SourceFileName = "MainView.ux";
+            return __self;
+        }
+        static global::Uno.UX.Selector __selector0 = "Uppage";
+    }
+    [Uno.Compiler.UxGenerated]
+    public partial class Template5: Uno.UX.Template
+    {
+        [Uno.WeakReference] internal readonly MainView __parent;
+        [Uno.WeakReference] internal readonly MainView __parentInstance;
+        public Template5(MainView parent, MainView parentInstance): base("Cardpage", false)
+        {
+            __parent = parent;
+            __parentInstance = parentInstance;
+        }
+        static Template5()
+        {
+        }
+        public override object New()
+        {
+            var __self = new global::Cardpage(__parent.router);
+            __self.Name = __selector0;
+            __self.SourceLineNumber = 12;
+            __self.SourceFileName = "MainView.ux";
+            return __self;
+        }
+        static global::Uno.UX.Selector __selector0 = "Cardpage";
+    }
     internal global::Fuse.Navigation.Router router;
-    internal global::Fuse.Controls.Panel PageLogin;
-    internal global::Fuse.Reactive.EventBinding temp_eb0;
-    internal global::Fuse.Reactive.EventBinding temp_eb1;
     global::Uno.UX.NameTable __g_nametable;
     static string[] __g_static_nametable = new string[] {
-        "router",
-        "Page.Login",
-        "temp_eb0",
-        "temp_eb1"
+        "router"
     };
     internal global::Fuse.Reactive.FuseJS.DiagnosticsImplModule FuseReactiveFuseJSDiagnosticsImplModule;
     internal global::Fuse.Reactive.FuseJS.Http FuseReactiveFuseJSHttp;
@@ -54,6 +161,7 @@ public partial class MainView: Fuse.App
     internal global::FuseJS.Bundle FuseJSBundle;
     internal global::FuseJS.FileReaderImpl FuseJSFileReaderImpl;
     internal global::FuseJS.UserEvents FuseJSUserEvents;
+    internal global::Qreader Qreader;
     static MainView()
     {
         global::Uno.UX.Resource.SetGlobalKey(global::Fuse.Reactive.DeviceCaps.Device, "Device");
@@ -189,140 +297,39 @@ public partial class MainView: Fuse.App
         FuseJSBundle = new global::FuseJS.Bundle();
         FuseJSFileReaderImpl = new global::FuseJS.FileReaderImpl();
         FuseJSUserEvents = new global::FuseJS.UserEvents();
+        Qreader = new global::Qreader();
         __g_nametable = new global::Uno.UX.NameTable(null, __g_static_nametable);
-        var temp = new global::Fuse.Controls.TextInput();
-        temp_Value_inst = new example01_FuseControlsTextInputControl_Value_Property(temp, __selector0);
-        var temp2 = new global::Fuse.Reactive.Data("userid");
-        var temp1 = new global::Fuse.Controls.TextInput();
-        temp1_Value_inst = new example01_FuseControlsTextInputControl_Value_Property(temp1, __selector0);
-        var temp3 = new global::Fuse.Reactive.Data("password");
-        var temp4 = new global::Fuse.Reactive.Data("Sign_in");
-        var temp5 = new global::Fuse.Reactive.Data("SignClicked");
         router = new global::Fuse.Navigation.Router();
-        var temp6 = new global::Fuse.Reactive.JavaScript(__g_nametable);
-        PageLogin = new global::Fuse.Controls.Panel();
-        var temp7 = new global::Fuse.Controls.Grid();
-        var temp8 = new global::Fuse.Reactive.DataBinding(temp_Value_inst, temp2, Fuse.Reactive.BindingMode.Default);
-        var temp9 = new global::Fuse.Controls.Rectangle();
-        var temp10 = new global::Fuse.Reactive.DataBinding(temp1_Value_inst, temp3, Fuse.Reactive.BindingMode.Default);
-        var temp11 = new global::Fuse.Controls.Rectangle();
-        var temp12 = new global::Fuse.Controls.Panel();
-        var temp13 = new global::Fuse.Controls.Text();
-        var temp14 = new global::Fuse.Controls.Rectangle();
-        var temp15 = new global::Fuse.Gestures.Clicked();
-        var temp16 = new global::Fuse.Triggers.Actions.Callback();
-        var temp17 = new global::Fuse.Triggers.Actions.Callback();
-        temp_eb0 = new global::Fuse.Reactive.EventBinding(temp4);
-        temp_eb1 = new global::Fuse.Reactive.EventBinding(temp5);
-        var temp18 = new global::Fuse.Controls.Navigator();
-        var PageHome = new Template(this, this);
-        router.Name = __selector1;
+        var temp = new global::Fuse.Reactive.JavaScript(__g_nametable);
+        var temp1 = new global::Fuse.Controls.Navigator();
+        var Login = new Template(this, this);
+        var Home = new Template1(this, this);
+        var Getpage = new Template2(this, this);
+        var QRpage = new Template3(this, this);
+        var Uppage = new Template4(this, this);
+        var Cardpage = new Template5(this, this);
+        router.Name = __selector0;
         router.SourceLineNumber = 2;
         router.SourceFileName = "MainView.ux";
-        temp6.LineNumber = 4;
-        temp6.FileName = "MainView.ux";
-        temp6.SourceLineNumber = 4;
-        temp6.SourceFileName = "MainView.ux";
-        temp6.File = new global::Uno.UX.BundleFileSource(import("../../../../../test.js"));
-        PageLogin.Name = __selector2;
-        PageLogin.SourceLineNumber = 6;
-        PageLogin.SourceFileName = "MainView.ux";
-        PageLogin.Children.Add(temp7);
-        PageLogin.Children.Add(temp18);
-        temp7.SourceLineNumber = 7;
-        temp7.SourceFileName = "MainView.ux";
-        temp7.Children.Add(temp);
-        temp7.Children.Add(temp9);
-        temp7.Children.Add(temp1);
-        temp7.Children.Add(temp11);
-        temp7.Children.Add(temp12);
-        temp.PlaceholderText = " Username";
-        temp.PlaceholderColor = float4(0.6f, 0.6f, 0.6f, 1f);
-        temp.TextColor = float4(0f, 0f, 0f, 1f);
-        temp.CaretColor = float4(0f, 0f, 0f, 1f);
-        temp.SourceLineNumber = 9;
+        temp.LineNumber = 4;
+        temp.FileName = "MainView.ux";
+        temp.SourceLineNumber = 4;
         temp.SourceFileName = "MainView.ux";
-        global::Fuse.Controls.Grid.SetRow(temp, 0);
-        global::Fuse.Controls.Grid.SetColumn(temp, 1);
-        temp.Bindings.Add(temp8);
-        temp2.SourceLineNumber = 9;
-        temp2.SourceFileName = "MainView.ux";
-        temp9.Color = float4(0f, 0f, 0f, 1f);
-        temp9.Height = new Uno.UX.Size(1f, Uno.UX.Unit.Unspecified);
-        temp9.Alignment = Fuse.Elements.Alignment.Bottom;
-        temp9.SourceLineNumber = 10;
-        temp9.SourceFileName = "MainView.ux";
-        global::Fuse.Controls.Grid.SetRow(temp9, 0);
-        global::Fuse.Controls.Grid.SetColumn(temp9, 0);
-        global::Fuse.Controls.Grid.SetColumnSpan(temp9, 2);
-        temp1.IsPassword = true;
-        temp1.PlaceholderText = "Password";
-        temp1.PlaceholderColor = float4(0.6f, 0.6f, 0.6f, 1f);
-        temp1.TextColor = float4(0f, 0f, 0f, 1f);
-        temp1.CaretColor = float4(0f, 0f, 0f, 1f);
-        temp1.SourceLineNumber = 12;
+        temp.File = new global::Uno.UX.BundleFileSource(import("../../../../../MainView.js"));
+        temp1.DefaultPath = "Login";
+        temp1.SourceLineNumber = 6;
         temp1.SourceFileName = "MainView.ux";
-        global::Fuse.Controls.Grid.SetRow(temp1, 1);
-        global::Fuse.Controls.Grid.SetColumn(temp1, 1);
-        temp1.Bindings.Add(temp10);
-        temp3.SourceLineNumber = 12;
-        temp3.SourceFileName = "MainView.ux";
-        temp11.Color = float4(0f, 0f, 0f, 1f);
-        temp11.Height = new Uno.UX.Size(1f, Uno.UX.Unit.Unspecified);
-        temp11.Alignment = Fuse.Elements.Alignment.Bottom;
-        temp11.SourceLineNumber = 13;
-        temp11.SourceFileName = "MainView.ux";
-        global::Fuse.Controls.Grid.SetRow(temp11, 1);
-        global::Fuse.Controls.Grid.SetColumn(temp11, 0);
-        global::Fuse.Controls.Grid.SetColumnSpan(temp11, 2);
-        temp12.Width = new Uno.UX.Size(200f, Uno.UX.Unit.Unspecified);
-        temp12.Height = new Uno.UX.Size(50f, Uno.UX.Unit.Unspecified);
-        temp12.Alignment = Fuse.Elements.Alignment.Center;
-        temp12.Margin = float4(20f, 20f, 20f, 20f);
-        temp12.SourceLineNumber = 15;
-        temp12.SourceFileName = "MainView.ux";
-        temp12.Children.Add(temp13);
-        temp12.Children.Add(temp14);
-        temp12.Children.Add(temp15);
-        temp13.Value = "Sign IN";
-        temp13.FontSize = 20f;
-        temp13.Color = float4(1f, 1f, 1f, 1f);
-        temp13.Alignment = Fuse.Elements.Alignment.Center;
-        temp13.SourceLineNumber = 16;
-        temp13.SourceFileName = "MainView.ux";
-        temp14.Color = float4(0f, 0f, 0f, 1f);
-        temp14.SourceLineNumber = 17;
-        temp14.SourceFileName = "MainView.ux";
-        temp15.SourceLineNumber = 18;
-        temp15.SourceFileName = "MainView.ux";
-        temp15.Actions.Add(temp16);
-        temp15.Actions.Add(temp17);
-        temp15.Bindings.Add(temp_eb0);
-        temp15.Bindings.Add(temp_eb1);
-        temp16.SourceLineNumber = 19;
-        temp16.SourceFileName = "MainView.ux";
-        temp16.Handler += temp_eb0.OnEvent;
-        temp4.SourceLineNumber = 19;
-        temp4.SourceFileName = "MainView.ux";
-        temp17.SourceLineNumber = 20;
-        temp17.SourceFileName = "MainView.ux";
-        temp17.Handler += temp_eb1.OnEvent;
-        temp5.SourceLineNumber = 20;
-        temp5.SourceFileName = "MainView.ux";
-        temp18.DefaultPath = "Page.Login";
-        temp18.SourceLineNumber = 26;
-        temp18.SourceFileName = "MainView.ux";
-        temp18.Templates.Add(PageHome);
+        temp1.Templates.Add(Login);
+        temp1.Templates.Add(Home);
+        temp1.Templates.Add(Getpage);
+        temp1.Templates.Add(QRpage);
+        temp1.Templates.Add(Uppage);
+        temp1.Templates.Add(Cardpage);
         __g_nametable.This = this;
         __g_nametable.Objects.Add(router);
-        __g_nametable.Objects.Add(PageLogin);
-        __g_nametable.Objects.Add(temp_eb0);
-        __g_nametable.Objects.Add(temp_eb1);
         this.Children.Add(router);
-        this.Children.Add(temp6);
-        this.Children.Add(PageLogin);
+        this.Children.Add(temp);
+        this.Children.Add(temp1);
     }
-    static global::Uno.UX.Selector __selector0 = "Value";
-    static global::Uno.UX.Selector __selector1 = "router";
-    static global::Uno.UX.Selector __selector2 = "Page.Login";
+    static global::Uno.UX.Selector __selector0 = "router";
 }

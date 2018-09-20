@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/build/Android/Preview/preamble/$.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/build/Android/Preview/preamble/$.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Outracks.Simulator.Cl-a8e260f1.h>
@@ -24,7 +24,7 @@ static void GeneratedApplication_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("127.0.0.1");
     ::STRINGS[1] = uString::Const("10.1.62.13");
-    ::STRINGS[2] = uString::Const("/Users/devel/Downloads/SWAPP/example01.unoproj");
+    ::STRINGS[2] = uString::Const("/Users/devel/github/CITOS-APP/example01.unoproj");
     ::STRINGS[3] = uString::Const("example01");
     ::TYPES[0] = ::g::Uno::Net::IPEndPoint_typeof()->Array();
     ::TYPES[1] = ::g::Uno::String_typeof()->Array();

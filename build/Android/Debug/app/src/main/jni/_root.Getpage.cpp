@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/.uno/ux15/Getpage.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/.uno/ux15/Getpage.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.example01_bundle.h>
@@ -234,7 +234,7 @@ void Getpage::InitializeUX()
     temp4->FileName(::STRINGS[9/*"Page/Getpag...*/]);
     temp4->SourceLineNumber(4);
     temp4->SourceFileName(::STRINGS[9/*"Page/Getpag...*/]);
-    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Getjsb5045a25()));
+    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Getjs5cbe1e1a()));
     temp5->SourceLineNumber(5);
     temp5->SourceFileName(::STRINGS[9/*"Page/Getpag...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp5->Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp6);

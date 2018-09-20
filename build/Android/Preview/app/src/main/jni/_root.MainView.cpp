@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/build/Android/Preview/cache/ux15/MainView.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/build/Android/Preview/cache/ux15/MainView.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.example01_bundle.h>
@@ -324,7 +324,7 @@ void MainView::InitializeUX()
     temp->FileName(uString::Const("MainView.ux"));
     temp->SourceLineNumber(4);
     temp->SourceFileName(uString::Const("MainView.ux"));
-    temp->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::MainViewe8f1283a()));
+    temp->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::MainViewd948fbb9()));
     temp1->DefaultPath(uString::Const("Login"));
     temp1->SourceLineNumber(6);
     temp1->SourceFileName(uString::Const("MainView.ux"));

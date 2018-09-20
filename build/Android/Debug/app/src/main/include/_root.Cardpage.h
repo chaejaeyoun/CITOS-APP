@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/.uno/ux15/Cardpage.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/.uno/ux15/Cardpage.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -44,6 +44,7 @@ struct Cardpage : ::g::Fuse::Controls::Page
     uStrong< ::g::Uno::UX::Property1*> temp_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp1_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp2_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp3_Value_inst;
     uStrong< ::g::Fuse::Controls::DockPanel*> topPanel;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb2;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb3;

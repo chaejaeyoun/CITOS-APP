@@ -3,6 +3,7 @@ var Observable = require("FuseJS/Observable");
 
 var userid = Observable("");
 var password = Observable("");
+var ID = Observable("");
 
 function Signin(){
  
@@ -12,7 +13,7 @@ function Signin(){
                 'password' : password.value
               });
 
-	fetch('http://b33d9e3d.ngrok.io/users/signin',{
+	fetch('http://c41f6608.ngrok.io/users/signin',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/JSON"
@@ -26,9 +27,12 @@ function Signin(){
 
 	            console.log( JSON.parse(res._bodyInit));
 
+	            ID = userid.value;
+
 	            if( JSON.parse(res._bodyInit) == true){
-	            	router.push("Home");
+	            	router.push("Home", ID);
 	            	console.log("Move to Home");
+	            	console.log(ID);
 	            }
 	            // JSON.parse(res._bodyInit).documents[1].address_name
 	        }).catch((err)=>{
@@ -55,5 +59,6 @@ module.exports = {
 	Signin : Signin,
 	userid : userid,
 	password : password,
-	Signup : Signup
+	Signup : Signup,
+	ID : ID
 };

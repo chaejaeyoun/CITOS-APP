@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/fuse-qreader/Qreader.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/fuse-qreader/Qreader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.Qreader.h>

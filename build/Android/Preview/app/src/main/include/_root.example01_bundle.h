@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/example01.unoproj.
+// This file was generated based on /Users/devel/github/CITOS-APP/example01.unoproj.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,18 +14,18 @@ uClassType* example01_bundle_typeof();
 
 struct example01_bundle : uObject
 {
-    static uSStrong< ::g::Uno::IO::BundleFile*> Cardjs493886af_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& Cardjs493886af() { return example01_bundle_typeof()->Init(), Cardjs493886af_; }
-    static uSStrong< ::g::Uno::IO::BundleFile*> Getjsb5045a25_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& Getjsb5045a25() { return example01_bundle_typeof()->Init(), Getjsb5045a25_; }
-    static uSStrong< ::g::Uno::IO::BundleFile*> Homejs20a25a68_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& Homejs20a25a68() { return example01_bundle_typeof()->Init(), Homejs20a25a68_; }
-    static uSStrong< ::g::Uno::IO::BundleFile*> MainViewe8f1283a_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& MainViewe8f1283a() { return example01_bundle_typeof()->Init(), MainViewe8f1283a_; }
-    static uSStrong< ::g::Uno::IO::BundleFile*> QRjsd8136104_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& QRjsd8136104() { return example01_bundle_typeof()->Init(), QRjsd8136104_; }
-    static uSStrong< ::g::Uno::IO::BundleFile*> Upjs24565a6a_;
-    static uSStrong< ::g::Uno::IO::BundleFile*>& Upjs24565a6a() { return example01_bundle_typeof()->Init(), Upjs24565a6a_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> Cardjs74de2ce8_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& Cardjs74de2ce8() { return example01_bundle_typeof()->Init(), Cardjs74de2ce8_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> Getjs5cbe1e1a_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& Getjs5cbe1e1a() { return example01_bundle_typeof()->Init(), Getjs5cbe1e1a_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> Homejsd670ae81_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& Homejsd670ae81() { return example01_bundle_typeof()->Init(), Homejsd670ae81_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> MainViewd948fbb9_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& MainViewd948fbb9() { return example01_bundle_typeof()->Init(), MainViewd948fbb9_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> QRjs7b2ca23d_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& QRjs7b2ca23d() { return example01_bundle_typeof()->Init(), QRjs7b2ca23d_; }
+    static uSStrong< ::g::Uno::IO::BundleFile*> Upjs62fc7e87_;
+    static uSStrong< ::g::Uno::IO::BundleFile*>& Upjs62fc7e87() { return example01_bundle_typeof()->Init(), Upjs62fc7e87_; }
 };
 // }
 

@@ -13,13 +13,13 @@ namespace Outracks.Simulator
 		public GeneratedApplication()
 			: base(
 				new [] 
-				{new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("127.0.0.1"), 12124), new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("10.1.60.159"), 12124), new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("192.168.56.1"), 12124)},"C:\\Users\\채재윤융합IT학부\\Documents\\Fuse\\example01\\example01.unoproj",new string[] 
+				{new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("127.0.0.1"), 12124), new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("10.1.62.13"), 12124)},"/Users/devel/github/CITOS-APP/example01.unoproj",new string[] 
 				{ })
 		{
 			Runtime.Bundle.Initialize("example01");
 
 			if defined(DotNet)
-				Reflection = new DotNetReflectionWrapper(DotNetReflection.Load("C:/Users/채재윤융합IT학부/Documents/Fuse/example01/build/Local/Designer1"));
+				Reflection = new DotNetReflectionWrapper(DotNetReflection.Load("/Users/devel/github/CITOS-APP/build/Local/Designer1"));
 			if defined(CPLUSPLUS)
 				Reflection = new NativeReflection(new SimpleTypeMap());
 		}

@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/build/Android/Preview/cache/ux15/Uppage.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/build/Android/Preview/cache/ux15/Uppage.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.example01_bundle.h>
@@ -277,7 +277,7 @@ void Uppage::InitializeUX()
     temp12->FileName(::STRINGS[12/*"Page/Uppage...*/]);
     temp12->SourceLineNumber(3);
     temp12->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
-    temp12->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Upjs24565a6a()));
+    temp12->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Upjs62fc7e87()));
     temp13->SourceLineNumber(4);
     temp13->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp13->Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp14);

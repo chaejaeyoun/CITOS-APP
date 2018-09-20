@@ -1,4 +1,4 @@
-// This file was generated based on /Users/devel/Downloads/SWAPP/.uno/ux15/Home.g.uno.
+// This file was generated based on /Users/devel/github/CITOS-APP/.uno/ux15/Home.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.example01_bundle.h>
@@ -239,7 +239,7 @@ void Home::InitializeUX()
     temp4->FileName(::STRINGS[10/*"Page/Home.ux"*/]);
     temp4->SourceLineNumber(3);
     temp4->SourceFileName(::STRINGS[10/*"Page/Home.ux"*/]);
-    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Homejs20a25a68()));
+    temp4->File(::g::Uno::UX::BundleFileSource::New1(::g::example01_bundle::Homejsd670ae81()));
     temp5->SourceLineNumber(4);
     temp5->SourceFileName(::STRINGS[10/*"Page/Home.ux"*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp5->Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp6);

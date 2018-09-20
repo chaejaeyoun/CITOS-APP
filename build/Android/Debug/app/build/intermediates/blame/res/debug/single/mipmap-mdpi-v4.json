@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/devel/github/CITOS-APP/build/Android/Debug/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/icon.png",
+        "source": "/Users/devel/github/CITOS-APP/build/Android/Debug/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
         "merged": "/Users/devel/Downloads/SWAPP/build/Android/Debug/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/icon.png",
         "source": "/Users/devel/Downloads/SWAPP/build/Android/Debug/app/src/main/res/mipmap-mdpi/icon.png"
     }
