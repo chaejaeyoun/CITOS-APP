@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e540c371cc7dad8607a9824aaaa712dd0ad374b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_eb578ec4034c4a5bab69496ee68be1efb0b20180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.2.1_772bc1f420be4fa225d4fe2f673d9a858cf9637e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.2.1_54211d806940bafcd0401fdf51ad0640f7b861bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_2d7c35abc99b00f79124b129dde290d279150e57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="3a42c5696fa39930d39770f7e5552a9c965fbe09">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.2.1_310ff1b792ea1165a90bde84cb6b70f7915952be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.10.1/e1852a8f519dbb0196fdb41bf2c584a8858189f8/metadata-extractor-2.10.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="e1852a8f519dbb0196fdb41bf2c584a8858189f8">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.10.1_fceca2b56d65b625984d40f906cc634d496b6e58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_ba836688aec7fc4c806e6c4d10718b87be3e72be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/src/main/libs/nv-websocket-client.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="2e2859df4b1c217c768c1b4a23f54ef66af50140">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/nv-websocket-client_b0cb0f05befcca64b5a32cd7d824409ab74d4731.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.3/57e70c3b10ff269fff9adfa7a31d61af0df30757/xmpcore-5.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="57e70c3b10ff269fff9adfa7a31d61af0df30757">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.3_9512b0520511aae7d08d11ea3fe5589d6a97ed7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_5242769eb605d6ba5d0ecb02aee575d8ebee03be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.2.1_1c6cc307f8e939d85390d781702136e405388376.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_e0eafa2311b67c721c8aca11db6fd08d32edc27b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_f18d504305fba15efee7c2ce7d839ba93252ac76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/devel/Downloads/SWAPP/build/Android/Preview/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_f28c4290545dbd8ad5497f672c09f2c38e13acbc.jar" />
+    </item>
+
+</items>
