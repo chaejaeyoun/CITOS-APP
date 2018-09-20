@@ -114,7 +114,7 @@ public partial class Cardpage: Fuse.Controls.Page
         temp18.Children.Add(temp3);
         temp18.Children.Add(temp26);
         temp18.Children.Add(temp27);
-        temp.PlaceholderText = "Card Number(12 words without ' - ')";
+        temp.PlaceholderText = "Card Number(16 numbers without ' - ')";
         temp.PlaceholderColor = float4(0.6f, 0.6f, 0.6f, 1f);
         temp.TextColor = float4(0f, 0f, 0f, 1f);
         temp.CaretColor = float4(0f, 0f, 0f, 1f);
