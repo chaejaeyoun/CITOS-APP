@@ -45,6 +45,7 @@ function SaveCard(){
 	            	"Content-type": "application/json"
 	            },
 	            body : JSON.stringify(otp)
+	        }).then((res)=>{ return res.json() 
 	        }).then((res)=>{
 	            // console.log( JSON.parse(res._bodyInit).documents[1].address_name )
 	            console.log(JSON.stringify(res));
