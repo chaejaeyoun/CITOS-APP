@@ -12,7 +12,7 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+-- Build files have been written to: /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:193 (message):
   android-9 is unsupported.  Using minimum supported version android-14
 Call Stack (most recent call first):
@@ -36,8 +36,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -46,8 +46,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -56,8 +56,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -66,8 +66,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -76,8 +76,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -86,8 +86,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -96,8 +96,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -106,8 +106,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -116,8 +116,8 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake:217 (message):
@@ -126,7 +126,7 @@ CMake Warning at /Users/devel/Library/Android/sdk/ndk-bundle/build/cmake/android
   https://developer.android.com/ndk/guides/cpp-support.html for more
   information.
 Call Stack (most recent call first):
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
-  /Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 

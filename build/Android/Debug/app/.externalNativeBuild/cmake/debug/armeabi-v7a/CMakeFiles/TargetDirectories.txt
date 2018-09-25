@@ -1,3 +1,0 @@
-/Users/devel/Downloads/SWAPP/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-/Users/devel/Downloads/SWAPP/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/Users/devel/Downloads/SWAPP/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/example01.dir

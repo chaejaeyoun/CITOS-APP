@@ -23,6 +23,7 @@ function goBack()
     //             'buytime' : password.value,
     //           });
 
+var tmp = Observable();
 
 
 function load () {
@@ -30,44 +31,50 @@ function load () {
 	qreader.scan().then(function (res) {
 
 	//JSON.parse는 스트링을 제이슨으로 바꿔줌
-	var tmp = JSON.parse(res);
+	tmp = JSON.parse(res);
 
-    console.log(tmp.menu);
+	console.log(JSON.stringify(res));
+
+	txt.value = res;
+
+	})
+}
+
+
+
+function Clicked () {
+
+	console.log(tmp.menu);
     console.log(tmp.price);
     console.log(Id._values);
-
-		txt.value = res;
-
-	var otp = ({
-            	'userid' : Id._values,
-            	'menu' : menu.value,
-            	'price' : price.value,
-            	'cardnum' : cardnum.value
-            	
+	
+	var bill = ({
+        		'userid' : Id._values,
+            	'menu' : tmp.menu,
+            	'price' : tmp.price
               });
 
-	fetch('http://f2c85938.ngrok.io/card/add',{
+	fetch('http://e4b6c854.ngrok.io/qrcode/qrbill',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
 	            },
-	            body : JSON.stringify(otp)
+	            body : JSON.stringify(bill)
+	        }).then((res)=>{ return res.json()
 	        }).then((res)=>{
 	            // console.log( JSON.parse(res._bodyInit).documents[1].address_name )
 	            console.log(JSON.stringify(res));
-	            // console.log( JSON.parse(res._bodyInit));
 
-	            // // this point
-	            // if( JSON.parse(res._bodyInit) == true){
-	            // 	router.push("Home");
-	            // 	console.log("Move to Home");
-	            // }
+
+	            if( JSON.parse(res.success) == true){
+	            	router.push("Home");
+	            	console.log("Move to Home");
+	            }
 	            
 	            // JSON.parse(res._bodyInit).documents[1].address_name
 	        }).catch((err)=>{
 	            console.log(err);
 	        });
-
 }
 
 
@@ -78,8 +85,7 @@ module.exports = {
 	goBack : goBack,
 	load: load,
  	txt: txt,
- 	Id : Id
- 	// userid : MainView.userid
- // 	load2: load2,
- //  	image: image
+ 	Id : Id,
+ 	tmp : tmp,
+ 	Clicked : Clicked
 };

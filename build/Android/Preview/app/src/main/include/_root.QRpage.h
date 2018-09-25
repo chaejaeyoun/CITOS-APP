@@ -45,6 +45,7 @@ struct QRpage : ::g::Fuse::Controls::Panel
     uStrong< ::g::Fuse::Controls::DockPanel*> topPanel;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb10;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb11;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb12;
     uStrong< ::g::Uno::UX::NameTable*> __g_nametable1;
     static uSStrong<uArray*> __g_static_nametable1_;
     static uSStrong<uArray*>& __g_static_nametable1() { return QRpage_typeof()->Init(), __g_static_nametable1_; }

@@ -13,7 +13,7 @@ function Signin(){
                 'password' : password.value
               });
 
-	fetch('http://c41f6608.ngrok.io/users/signin',{
+	fetch('http://e4b6c854.ngrok.io/users/signin',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/JSON"
@@ -21,15 +21,17 @@ function Signin(){
 	            body : JSON.stringify(opts)
 	               
 	        }).then((res)=>{
-	            // console.log( JSON.parse(res._bodyInit).documents[1].address_name )
-
 	            console.log(JSON.stringify(res));
+	            console.log(res._bodyInit);
+	            return res.json()
+			}).then((res)=>{
 
-	            console.log( JSON.parse(res._bodyInit));
+	            console.log(res.success);
+
 
 	            ID = userid.value;
 
-	            if( JSON.parse(res._bodyInit) == true){
+	            if( JSON.parse(res.success) == true){
 	            	router.push("Home", ID);
 	            	console.log("Move to Home");
 	            	console.log(ID);

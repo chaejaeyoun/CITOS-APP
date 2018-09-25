@@ -39,7 +39,7 @@ function SaveCard(){
 	            	
 	              });
 
-	fetch('http://c41f6608.ngrok.io/card/add',{
+	fetch('http://e4b6c854.ngrok.io/card/add',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"

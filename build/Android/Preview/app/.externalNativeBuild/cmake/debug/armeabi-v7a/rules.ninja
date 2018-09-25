@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__example01
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/devel/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/devel/Downloads/SWAPP/build/Android/Preview/app/src/main -B/Users/devel/Downloads/SWAPP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+  command = /Users/devel/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/devel/github/CITOS-APP/build/Android/Preview/app/src/main -B/Users/devel/github/CITOS-APP/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

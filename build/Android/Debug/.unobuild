@@ -1,4 +1,0 @@
-$: 1155569413
-BuildCommand: "bash build.sh"
-RunCommand: "bash run.sh"
-Product: example01.apk
