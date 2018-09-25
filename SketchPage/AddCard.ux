@@ -1,0 +1,27 @@
+<Page ux:Class="Page.AddCard">
+	<Router ux:Dependency="router" />
+	<Sketch.Button_add_card  Alignment="BottomCenter" Margin="30"/> 
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<Sketch.App_name_white />
+			<Sketch.Top_Bar />
+
+		</Panel>
+		
+		<Panel  Dock="Bottom">
+			<StackPanel>
+				
+				<Sketch.Text_no_card />
+				<Sketch.Text_no_card_add />
+
+			</StackPanel>
+
+			<Sketch.add_card_wallet/>
+
+		</Panel>
+		
+	</DockPanel>
+
+	<Sketch.add_card_nothing Alignment="Center"/>
+	<Sketch.Background />
+</Page>

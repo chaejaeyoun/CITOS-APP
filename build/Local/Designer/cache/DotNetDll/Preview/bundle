@@ -58,4 +58,8 @@ FuseJS
 Outracks.Simulator.Common.Uno
 Fuse.Preview.Core:fight.png:fight-1537455b.png
 fuse-qreader
+<<<<<<< HEAD
 example01:MainView.js:mainview-cb8c4a65.js:Page/Cardjs.js:cardjs-6d514dc4.js:Page/Getjs.js:getjs-9bac4446.js:Page/Homejs.js:homejs-99df06ed.js:Page/QRjs.js:qrjs-7a708ff9.js:Page/Upjs.js:upjs-62406c43.js
+=======
+example01:Page/QRjs.js:qrjs-7a708ff9.js:Page/Getjs.js:getjs-9bac4446.js:Page/Homejs.js:homejs-99df06ed.js:Page/Cardjs.js:cardjs-6d514dc4.js:MainView.js:mainview-cb8c4a65.js:Page/Upjs.js:upjs-62406c43.js
+>>>>>>> de35a9065a9fcc28fcdb9bc294651135bb82d3b6

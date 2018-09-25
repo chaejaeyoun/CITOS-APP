@@ -1,0 +1,62 @@
+<Page ux:Class="Page.CardSetting">
+	<Router ux:Dependency="router" />
+	<!-- <Sketch.Button_next_off  Alignment="BottomCenter" Margin="30"/>  -->
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<!-- <Sketch.logo /> -->
+			<Sketch.App_name_blue />
+			<Sketch.Icon_QR_camera />
+			<Sketch.Top_Bar />
+
+		</Panel>
+		<Sketch.Button_add />
+		<StackPanel>
+			<Panel>
+				<Sketch.add_card_wallet />
+				<Sketch.Card_B_card  Alignment="Top" />
+			</Panel>
+			<Panel>
+				<Sketch.add_card_wallet />
+				<Sketch.Card_S_card  Alignment="Top" />
+			</Panel>
+			<Panel>
+				<Sketch.add_card_wallet />
+				<Sketch.Card_W_card  Alignment="Top" />
+			</Panel>
+		</StackPanel>
+
+	
+
+		<!-- <ScrollView> -->
+			
+			<!-- <Sketch.add_card_wallet  /> -->
+			<!-- <Sketch.add_card_wallet  /> -->
+		<!-- </ScrollView> -->
+				
+			<!-- 	<Panel>
+					<Sketch.add_card_wallet Alignment="Center"/>
+					<DockPanel>
+					
+						<Sketch.Card_S_card/>
+					
+					</DockPanel>
+					<Sketch.Card_B_card />
+					<Sketch.Card_W_card />
+				</Panel> -->
+				
+				
+			
+			<!-- <Sketch.add_card_wallet/> -->
+
+		<!-- 	<Sketch.Card_B_card />
+			<Sketch.add_card_wallet/>
+
+			<Sketch.Card_W_card />
+			 -->
+
+		<!-- <Sketch.add_card_wallet/> -->
+	</DockPanel>
+
+	<!-- <Sketch.add_card_nothing Alignment="Center"/> -->
+	<Sketch.Background />
+</Page>

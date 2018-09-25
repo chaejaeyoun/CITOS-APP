@@ -1,0 +1,11 @@
+<Page ux:Class="Page.Splash">
+	<Router ux:Dependency="router" />
+	
+	<StackPanel Alignment="Center">
+		
+		<Sketch.Logo_white Height="100" />
+		<Sketch.App_name_white /> 
+	
+	</StackPanel>
+	<Sketch.Splashscreen />
+</Page>
