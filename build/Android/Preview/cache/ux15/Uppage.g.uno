@@ -8,14 +8,14 @@ public partial class Uppage: Fuse.Controls.Page
     global::Uno.UX.Property<string> temp3_Value_inst;
     global::Uno.UX.Property<string> temp4_Value_inst;
     internal global::Fuse.Controls.DockPanel topPanel;
-    internal global::Fuse.Reactive.EventBinding temp_eb12;
     internal global::Fuse.Reactive.EventBinding temp_eb13;
+    internal global::Fuse.Reactive.EventBinding temp_eb14;
     global::Uno.UX.NameTable __g_nametable;
     static string[] __g_static_nametable = new string[] {
         "router",
         "topPanel",
-        "temp_eb12",
-        "temp_eb13"
+        "temp_eb13",
+        "temp_eb14"
     };
     static Uppage()
     {
@@ -54,7 +54,7 @@ public partial class Uppage: Fuse.Controls.Page
         var temp15 = new global::Fuse.Controls.Button();
         var temp16 = new global::Fuse.Gestures.Clicked();
         var temp17 = new global::Fuse.Triggers.Actions.Callback();
-        temp_eb12 = new global::Fuse.Reactive.EventBinding(temp5);
+        temp_eb13 = new global::Fuse.Reactive.EventBinding(temp5);
         var temp18 = new global::Fuse.Drawing.StaticSolidColor(float4(0.2f, 0.2f, 0.2f, 1f));
         var temp19 = new global::Fuse.Drawing.StaticSolidColor(float4(1f, 1f, 1f, 1f));
         var temp20 = new global::Fuse.Controls.StackPanel();
@@ -73,7 +73,7 @@ public partial class Uppage: Fuse.Controls.Page
         var temp33 = new global::Fuse.Controls.Rectangle();
         var temp34 = new global::Fuse.Gestures.Clicked();
         var temp35 = new global::Fuse.Triggers.Actions.Callback();
-        temp_eb13 = new global::Fuse.Reactive.EventBinding(temp11);
+        temp_eb14 = new global::Fuse.Reactive.EventBinding(temp11);
         this.SourceLineNumber = 1;
         this.SourceFileName = "Page/Uppage.ux";
         temp12.LineNumber = 3;
@@ -103,10 +103,10 @@ public partial class Uppage: Fuse.Controls.Page
         temp16.SourceLineNumber = 8;
         temp16.SourceFileName = "Page/Uppage.ux";
         temp16.Actions.Add(temp17);
-        temp16.Bindings.Add(temp_eb12);
+        temp16.Bindings.Add(temp_eb13);
         temp17.SourceLineNumber = 9;
         temp17.SourceFileName = "Page/Uppage.ux";
-        temp17.Handler += temp_eb12.OnEvent;
+        temp17.Handler += temp_eb13.OnEvent;
         temp5.SourceLineNumber = 9;
         temp5.SourceFileName = "Page/Uppage.ux";
         temp20.SourceLineNumber = 15;
@@ -239,17 +239,17 @@ public partial class Uppage: Fuse.Controls.Page
         temp34.SourceLineNumber = 42;
         temp34.SourceFileName = "Page/Uppage.ux";
         temp34.Actions.Add(temp35);
-        temp34.Bindings.Add(temp_eb13);
+        temp34.Bindings.Add(temp_eb14);
         temp35.SourceLineNumber = 43;
         temp35.SourceFileName = "Page/Uppage.ux";
-        temp35.Handler += temp_eb13.OnEvent;
+        temp35.Handler += temp_eb14.OnEvent;
         temp11.SourceLineNumber = 43;
         temp11.SourceFileName = "Page/Uppage.ux";
         __g_nametable.This = this;
         __g_nametable.Objects.Add(router);
         __g_nametable.Objects.Add(topPanel);
-        __g_nametable.Objects.Add(temp_eb12);
         __g_nametable.Objects.Add(temp_eb13);
+        __g_nametable.Objects.Add(temp_eb14);
         this.Children.Add(temp12);
         this.Children.Add(temp13);
     }

@@ -39,7 +39,7 @@ function SaveCard(){
 	            	
 	              });
 
-	fetch('http://c41f6608.ngrok.io/card/add',{
+	fetch('http://e4b6c854.ngrok.io/card/add',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
@@ -49,20 +49,12 @@ function SaveCard(){
 	        }).then((res)=>{
 	            // console.log( JSON.parse(res._bodyInit).documents[1].address_name )
 	            console.log(JSON.stringify(res));
-	            console.log(res._bodyInit);
+	            console.log(res.success);
 
-	            // var val = res._bodyInit.replace(/\n/g, "");
-	            // var val2 = val.replace(/\s+/, "");
-
-	            console.log(res._bodyInit.value);
-	            console.log(res._bodyInit.success);
-
-
-	            // // this point
-	            // if( JSON.parse(res._bodyInit) == true){
-	            // 	router.push("Home");
-	            // 	console.log("Move to Home");
-	            // }
+	            if( JSON.parse(res.success) == true){
+	            	router.push("Home");
+	            	console.log("Move to Home");
+	            }
 	            
 	            // JSON.parse(res._bodyInit).documents[1].address_name
 	        }).catch((err)=>{

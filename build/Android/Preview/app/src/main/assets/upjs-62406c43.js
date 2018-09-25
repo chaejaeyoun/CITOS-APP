@@ -18,7 +18,7 @@ var savename = Observable("");
 function Save(){
     console.log('UPID'); //Sign_in 함수가 호출되었는지 확인
 
-	fetch('http://c41f6608.ngrok.io/users/signup',{
+	fetch('http://e4b6c854.ngrok.io/users/signup',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
@@ -31,16 +31,16 @@ function Save(){
 	                'newsex' : savesex.value
 	                
 	              })
+	        }).then((res)=>{ return res.json()
 	        }).then((res)=>{
 	            // console.log( JSON.parse(res._bodyInit).documents[1].address_name )
 	            console.log(JSON.stringify(res));
-	            // console.log( JSON.parse(res._bodyInit));
+	            console.log(res.success);
 
-	            // this point
-	            // if( JSON.parse(res._bodyInit) == true){
-	            // 	router.push("Login");
-	            // 	console.log("Move to Login");
-	            // }
+	            if( JSON.parse(res.success) == true){
+	            	router.push("Login");
+	            	console.log("Move to Login");
+	            }
 
 
 	            // JSON.parse(res._bodyInit).documents[1].address_name

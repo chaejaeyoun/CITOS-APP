@@ -47,8 +47,8 @@ struct Uppage : ::g::Fuse::Controls::Page
     uStrong< ::g::Uno::UX::Property1*> temp3_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp4_Value_inst;
     uStrong< ::g::Fuse::Controls::DockPanel*> topPanel;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb12;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb13;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb14;
     uStrong< ::g::Uno::UX::NameTable*> __g_nametable1;
     static uSStrong<uArray*> __g_static_nametable1_;
     static uSStrong<uArray*>& __g_static_nametable1() { return Uppage_typeof()->Init(), __g_static_nametable1_; }

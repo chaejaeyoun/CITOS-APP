@@ -60,7 +60,7 @@ namespace g{
 // static Uppage() :20
 static void Uppage__cctor_4_fn(uType* __type)
 {
-    Uppage::__g_static_nametable1_ = uArray::Init<uString*>(::TYPES[0/*string[]*/], 4, ::STRINGS[0/*"router"*/], ::STRINGS[1/*"topPanel"*/], ::STRINGS[2/*"temp_eb12"*/], ::STRINGS[3/*"temp_eb13"*/]);
+    Uppage::__g_static_nametable1_ = uArray::Init<uString*>(::TYPES[0/*string[]*/], 4, ::STRINGS[0/*"router"*/], ::STRINGS[1/*"topPanel"*/], ::STRINGS[2/*"temp_eb13"*/], ::STRINGS[3/*"temp_eb14"*/]);
     Uppage::__selector0_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[4/*"Value"*/]);
     Uppage::__selector1_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[1/*"topPanel"*/]);
 }
@@ -69,8 +69,8 @@ static void Uppage_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("router");
     ::STRINGS[1] = uString::Const("topPanel");
-    ::STRINGS[2] = uString::Const("temp_eb12");
-    ::STRINGS[3] = uString::Const("temp_eb13");
+    ::STRINGS[2] = uString::Const("temp_eb13");
+    ::STRINGS[3] = uString::Const("temp_eb14");
     ::STRINGS[4] = uString::Const("Value");
     ::STRINGS[5] = uString::Const("goBack");
     ::STRINGS[6] = uString::Const("saveid");
@@ -122,8 +122,8 @@ static void Uppage_build(uType* type)
         ::g::Uno::UX::Property1_typeof()->MakeType(::g::Uno::String_typeof(), NULL), offsetof(Uppage, temp3_Value_inst), 0,
         ::g::Uno::UX::Property1_typeof()->MakeType(::g::Uno::String_typeof(), NULL), offsetof(Uppage, temp4_Value_inst), 0,
         ::g::Fuse::Controls::DockPanel_typeof(), offsetof(Uppage, topPanel), 0,
-        ::g::Fuse::Reactive::EventBinding_typeof(), offsetof(Uppage, temp_eb12), 0,
         ::g::Fuse::Reactive::EventBinding_typeof(), offsetof(Uppage, temp_eb13), 0,
+        ::g::Fuse::Reactive::EventBinding_typeof(), offsetof(Uppage, temp_eb14), 0,
         ::g::Uno::UX::NameTable_typeof(), offsetof(Uppage, __g_nametable1), 0,
         ::TYPES[0/*string[]*/], (uintptr_t)&Uppage::__g_static_nametable1_, uFieldFlagsStatic,
         ::g::Uno::UX::Selector_typeof(), (uintptr_t)&Uppage::__selector0_, uFieldFlagsStatic,
@@ -251,7 +251,7 @@ void Uppage::InitializeUX()
     ::g::Fuse::Controls::Button* temp15 = ::g::Fuse::Controls::Button::New5();
     ::g::Fuse::Gestures::Clicked* temp16 = ::g::Fuse::Gestures::Clicked::New2();
     ::g::Fuse::Triggers::Actions::Callback* temp17 = ::g::Fuse::Triggers::Actions::Callback::New2();
-    temp_eb12 = ::g::Fuse::Reactive::EventBinding::New1((uObject*)temp5);
+    temp_eb13 = ::g::Fuse::Reactive::EventBinding::New1((uObject*)temp5);
     ::g::Fuse::Drawing::StaticSolidColor* temp18 = ::g::Fuse::Drawing::StaticSolidColor::New2(::g::Uno::Float4__New2(0.2f, 0.2f, 0.2f, 1.0f));
     ::g::Fuse::Drawing::StaticSolidColor* temp19 = ::g::Fuse::Drawing::StaticSolidColor::New2(::g::Uno::Float4__New2(1.0f, 1.0f, 1.0f, 1.0f));
     ::g::Fuse::Controls::StackPanel* temp20 = ::g::Fuse::Controls::StackPanel::New4();
@@ -270,7 +270,7 @@ void Uppage::InitializeUX()
     ::g::Fuse::Controls::Rectangle* temp33 = ::g::Fuse::Controls::Rectangle::New3();
     ::g::Fuse::Gestures::Clicked* temp34 = ::g::Fuse::Gestures::Clicked::New2();
     ::g::Fuse::Triggers::Actions::Callback* temp35 = ::g::Fuse::Triggers::Actions::Callback::New2();
-    temp_eb13 = ::g::Fuse::Reactive::EventBinding::New1((uObject*)temp11);
+    temp_eb14 = ::g::Fuse::Reactive::EventBinding::New1((uObject*)temp11);
     SourceLineNumber(1);
     SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     temp12->LineNumber(3);
@@ -300,10 +300,10 @@ void Uppage::InitializeUX()
     temp16->SourceLineNumber(8);
     temp16->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp16->Actions()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Triggers.Actions.TriggerAction>*/]), temp17);
-    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp16->Bindings()), ::TYPES[3/*Uno.Collections.ICollection<Fuse.Binding>*/]), temp_eb12);
+    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp16->Bindings()), ::TYPES[3/*Uno.Collections.ICollection<Fuse.Binding>*/]), temp_eb13);
     temp17->SourceLineNumber(9);
     temp17->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
-    temp17->add_Handler(uDelegate::New(::TYPES[4/*Fuse.VisualEventHandler*/], (void*)::g::Fuse::Reactive::EventBinding__OnEvent_fn, uPtr(temp_eb12)));
+    temp17->add_Handler(uDelegate::New(::TYPES[4/*Fuse.VisualEventHandler*/], (void*)::g::Fuse::Reactive::EventBinding__OnEvent_fn, uPtr(temp_eb13)));
     temp5->SourceLineNumber(9);
     temp5->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     temp20->SourceLineNumber(15);
@@ -436,17 +436,17 @@ void Uppage::InitializeUX()
     temp34->SourceLineNumber(42);
     temp34->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp34->Actions()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Triggers.Actions.TriggerAction>*/]), temp35);
-    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp34->Bindings()), ::TYPES[3/*Uno.Collections.ICollection<Fuse.Binding>*/]), temp_eb13);
+    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp34->Bindings()), ::TYPES[3/*Uno.Collections.ICollection<Fuse.Binding>*/]), temp_eb14);
     temp35->SourceLineNumber(43);
     temp35->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
-    temp35->add_Handler(uDelegate::New(::TYPES[4/*Fuse.VisualEventHandler*/], (void*)::g::Fuse::Reactive::EventBinding__OnEvent_fn, uPtr(temp_eb13)));
+    temp35->add_Handler(uDelegate::New(::TYPES[4/*Fuse.VisualEventHandler*/], (void*)::g::Fuse::Reactive::EventBinding__OnEvent_fn, uPtr(temp_eb14)));
     temp11->SourceLineNumber(43);
     temp11->SourceFileName(::STRINGS[12/*"Page/Uppage...*/]);
     uPtr(__g_nametable1)->This(this);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(__g_nametable1)->Objects()), ::TYPES[5/*Uno.Collections.ICollection<object>*/]), router);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(__g_nametable1)->Objects()), ::TYPES[5/*Uno.Collections.ICollection<object>*/]), topPanel);
-    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(__g_nametable1)->Objects()), ::TYPES[5/*Uno.Collections.ICollection<object>*/]), temp_eb12);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(__g_nametable1)->Objects()), ::TYPES[5/*Uno.Collections.ICollection<object>*/]), temp_eb13);
+    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(__g_nametable1)->Objects()), ::TYPES[5/*Uno.Collections.ICollection<object>*/]), temp_eb14);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp12);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Children()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Node>*/]), temp13);
 }

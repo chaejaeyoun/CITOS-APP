@@ -18,7 +18,7 @@ var savename = Observable("");
 function Save(){
     console.log('UPID'); //Sign_in 함수가 호출되었는지 확인
 
-	fetch('http://c41f6608.ngrok.io/users/signup',{
+	fetch('http://e4b6c854.ngrok.io/users/signup',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
@@ -38,8 +38,8 @@ function Save(){
 	            console.log(res.success);
 
 	            if( JSON.parse(res.success) == true){
-	            	router.push("Home");
-	            	console.log("Move to Home");
+	            	router.push("Login");
+	            	console.log("Move to Login");
 	            }
 
 
