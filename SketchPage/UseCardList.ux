@@ -1,0 +1,36 @@
+<Page ux:Class="Page.UseCardList">
+	<Router ux:Dependency="router" />
+	
+
+
+	<StackPanel>
+		<!-- <Sketch.card_exist /> -->
+		<Panel>
+			<Sketch.Button_x_white />
+
+			<PageControl  InactiveState="Unchanged" >
+				<NavigationMotion GotoEasing="QuadraticOut" GotoDuration="0.3" />
+				<Panel>
+					<Sketch.Card_B_card  />
+				</Panel>
+				<Panel>
+
+					<Sketch.Card_W_card  />
+				</Panel>
+				<Panel>
+					<Sketch.Card_S_card  />
+
+				</Panel>
+			</PageControl>
+
+			
+		</Panel>
+
+		<Sketch.card_setting_text />
+		<Sketch.balance />
+		<Sketch.purchase_history />
+		<Sketch.purchase_history_price />
+		
+	</StackPanel>
+
+</Page>

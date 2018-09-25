@@ -1,0 +1,52 @@
+<Page ux:Class="Page.EnrollmentCard">
+	<Router ux:Dependency="router" />
+	
+	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30"/> 
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<Sketch.Text_card_information />
+			<Sketch.Top_Bar />
+
+		</Panel>
+		
+		<Panel  Dock="Top">
+			<StackPanel>
+				<Sketch.card_information_01 />
+
+				<PageControl  InactiveState="Unchanged" >
+					<NavigationMotion GotoEasing="QuadraticOut" GotoDuration="0.3" />
+					<Panel>
+						<Sketch.Card_B_card  />
+					</Panel>
+					<Panel>
+
+						<Sketch.Card_W_card  />
+					</Panel>
+					<Panel>
+						<Sketch.Card_S_card  />
+
+					</Panel>
+				</PageControl>
+				
+				<Sketch.Icon_QR_camera />
+				<Sketch.QR_camera_text /> 
+
+				<Sketch.Text_card_number />
+				<Sketch.Text_card_password />
+				
+				<!-- <Sketch.Card_date /> -->
+				<Sketch.Text_card_CVV_number/>
+				
+
+				
+			</StackPanel>
+
+			<!-- <Sketch.add_card_wallet/> -->
+
+		</Panel>
+		
+	</DockPanel>
+
+	<!-- <Sketch.add_card_nothing Alignment="Center"/> -->
+	<Sketch.Background />
+</Page>

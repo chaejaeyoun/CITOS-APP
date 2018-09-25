@@ -1,0 +1,31 @@
+<App>
+	<Router ux:Name="router" />
+	<ClientPanel>
+		  <StatusBarBackground/>
+
+	     <Navigator DefaultPath="UseCardList">
+	     	<!-- Page/Authorization -->
+	     		<Authorization.Name  ux:Template="AuthName" router="router"/>
+	     		<Authorization.Gender  ux:Template="AuthGender" router="router"/>
+	     		<Authorization.Birth  ux:Template="AuthBirth" router="router"/>
+	     		<Authorization.Phone ux:Template="AuthPhone" router="router" />
+	     		<Authorization.CheckNumber ux:Template="AuthCheckNumber" router="router" />
+	     		<Authorization.Fingerprint ux:Template="AuthFingerprintckNumber" router="router" />
+
+
+	     		<Authorization.Complete ux:Template="AuthComplete" router="router" />
+
+
+	     		<!-- Enroll a new FingerPrint  -->
+	     		<Fingerprint.Add ux:Template="FingerprintAdd" router="router" />
+
+		     	<Page.AddCard  ux:Template="AddCard" router="router"/>
+		     	
+	     		<Page.UseCardList  ux:Template="UseCardList" router="router"/>
+				<Page.CardSetting  ux:Template="CardSetting" router="router"/>
+				<Page.Splash  ux:Template="Splash" router="router"/>
+				<Page.EnrollmentCard  ux:Template="EnrollmentCard" router="router"/>
+	     </Navigator>
+
+	</ClientPanel>
+</App>
